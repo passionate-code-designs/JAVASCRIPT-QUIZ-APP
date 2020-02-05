@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Quiz App</title>
+		<link rel="stylesheet" href="./styles/materialize.min.css" />
+		<link rel="stylesheet" href="./styles/sweetalert2.min.css" />
+		<link rel="stylesheet" href="./styles/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<!--////////// HEADER /////////// -->
+
+			<header>
+				<h1 class="center center-align main-heading">
+					QUIZ - APP
+				</h1>
+			</header>
+
+			<!--////////// GIF /////////// -->
+
+			<div class="gif">
+				<img src="./assets/animated-animal-image-0052.gif" alt="gif" />
+			</div>
+
+			<!--//////////  QUIZES CONTAINER  ////////-->
+
+			<div class="questions-container container white z-depth-5">
+				<ol>
+					<div class="collection">
+						<div class="collection-item container"></div>
+					</div>
+				</ol>
+				<!--//////////  QUESTION NUMBER  /////////// -->
+				<h3 class="question-no"></h3>
+
+				<!--//////////  MEDAL TYPE  /////////// -->
+				<h1 class="medal center"></h1>
+
+				<!--//////////  TOTAL SCORE /////////// -->
+				<h2 class="score center"></h2>
+			</div>
+		</div>
+
+		<!--////////// SCRIPT TAGS /////////// -->
+		<script src="./js/materialize.min.js"></script>
+		<script src="./js/sweetalert2.all.min.js"></script>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
